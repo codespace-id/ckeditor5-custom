@@ -1,5 +1,5 @@
 {
-  "name": "@codespace/ckeditor5-build-classic",
+  "name": "@codespaceid/ckeditor5-custom",
   "version": "24.0.0",
   "description": "The classic editor build of CKEditor 5 – the best browser-based rich text editor.",
   "private": false,
@@ -60,15 +60,14 @@
     "node": ">=12.0.0",
     "npm": ">=5.7.1"
   },
-  "author": "Codespace Indonesia",
+  "author": "CodeSpace",
   "license": "GPL-2.0-or-later",
   "homepage": "https://codespace.id",
-  "bugs": {
-    "url": "https://github.com/ckeditor/ckeditor5/issues"
-  },
+  "bugs": "https://github.com/codepsace-id/ckeditor5-custom/issues",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/codespace-id/ckeditor5-custom.git"
+    "url": "https://github.com/codepsace-id/ckeditor5-custom.git",
+    "directory": "./"
   },
   "scripts": {
     "build": "webpack --mode production",
